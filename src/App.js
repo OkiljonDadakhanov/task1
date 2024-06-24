@@ -1,7 +1,14 @@
+import Header from "./components/Header";
+import Product from "./components/Product";
+import Services from "./components/Services.tsx"
 
 function App() {
   return (
-    <p className="underline">hello</p>
+    <>
+    <Header />
+    <Product />
+    <Services />
+    </>
   );
 }
 
