@@ -1,13 +1,15 @@
+import Swiper  from "./components/Swiper.tsx";
 import Header from "./components/Header";
 import Product from "./components/Product";
-import Services from "./components/Services.tsx"
+import CaseStudies from "./components/CaseStudies.jsx";
 
 function App() {
   return (
     <>
     <Header />
     <Product />
-    <Services />
+    <Swiper />
+    <CaseStudies /> 
     </>
   );
 }
