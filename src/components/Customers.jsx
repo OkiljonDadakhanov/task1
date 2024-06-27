@@ -9,6 +9,7 @@ import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
 import customers from "../utils/customers";
 import CustomerFeedback from "../components/CustomerFeedbacks";
+import Line from "./Line";
 
 const Customers = () => {
   useEffect(() => {
@@ -40,7 +41,8 @@ const Customers = () => {
     <>
       <div className="flex justify-center min-h-screen">
         <div className="container w-[85%] text-center mt-[170px]">
-          <div className="line h-1 w-16 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 mb-8 mx-auto"></div> 
+
+<Line />
           <h1 className="text-[35px] font-inter">
             Why customers love
             <span className="font-bold block">working with us</span>
