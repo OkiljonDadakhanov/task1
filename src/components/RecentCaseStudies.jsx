@@ -25,12 +25,12 @@ const RecentCaseStudies = () => {
           <RecentCaseStudy key={index} imgSrc={imgSrc} />
         ))}
         
-         <button className="text-gradient text-[20px] font-semibold absolute right-[120px] bottom-[-78px]">
+         
+      </div>
+<button className="text-gradient text-[20px] font-semibold ">
         Read more case studies
         <span className="text-gradient ml-2  ">&gt;</span>
       </button>
-      </div>
-
      
     </div>
         

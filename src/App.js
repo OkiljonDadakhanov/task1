@@ -5,6 +5,7 @@ import CaseStudies from "./components/CaseStudies.jsx";
 import Companies from "./components/Companies";
 import Customers from "./components/Customers";
 import RecentCaseStudies from "./components/RecentCaseStudies";
+import BuildingSoftwareCard from "./components/BuildingSoftwareCard";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
     <Companies />
     <Customers />
     <RecentCaseStudies />
+    <BuildingSoftwareCard />
     </>
   );
 }

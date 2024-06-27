@@ -24,7 +24,7 @@ const Companies = () => {
   return (
     <div>
     
-      <div className="companiesName flex justify-between w-full h-auto items-center   mt-[120px] ">
+      <div className="companiesName flex justify-between w-[100%] h-auto items-center   mt-[120px] ">
       <Marquee>
         {companyImages.map((image, index) => (
           <img className='m-7' key={index} src={image.src} alt={`${image.alt} logo`} />
