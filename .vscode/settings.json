@@ -1,0 +1,7 @@
+{
+    "gitlens.currentLine.enabled": true,
+    "gitlens.virtualRepositories.enabled": true,
+    "gitlens.plusFeatures.enabled": false,
+    "git.enabled": false,
+    "typescript.tsdk": "node_modules\\typescript\\lib"
+}
