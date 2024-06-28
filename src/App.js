@@ -6,6 +6,8 @@ import Companies from "./components/Companies";
 import Customers from "./components/Customers";
 import RecentCaseStudies from "./components/RecentCaseStudies";
 import BuildingSoftwareCard from "./components/BuildingSoftwareCard";
+import DevelopmentApproach from "./components/DevelopmentApproach";
+import TechStack from "./components/TechStack";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
     <Customers />
     <RecentCaseStudies />
     <BuildingSoftwareCard />
+    <DevelopmentApproach />
+    <TechStack />
     </>
   );
 }

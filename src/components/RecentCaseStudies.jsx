@@ -27,7 +27,7 @@ const RecentCaseStudies = () => {
         
          
       </div>
-<button className="text-gradient text-[20px] font-semibold ">
+<button className="text-gradient text-[20px] font-semibold absolute right-[120px] cursor-pointer">
         Read more case studies
         <span className="text-gradient ml-2  ">&gt;</span>
       </button>

@@ -14,6 +14,32 @@ module.exports = {
           '57007B': '#57007B',
         },
       },
+      rockBg: {
+        rocketSt: '#29272E',
+        rocketEnd: '#29272E',
+      },
+      codeBg:{
+        codeSt: '#68DBF2',
+        codeEnd: '#509CF5',
+      },
+      heartBg: {
+        heartSt: '#FF92AE',
+        heartEnd: '#FF3D9A',
+      },
+      securityBg: {
+        secSt: '#67E9F1',
+        secEnd: '#24E795',
+      },
+
+      successBg: {
+        sucSt: '#FFEF5E',
+        sucEnd: '#F7936F',
+      },
+      qualityBg: {
+        qualitySt: '#F76680',
+        qualityEnd: '#57007B'
+      },
+
       backgroundImage: {
         'custom-gradient': 'linear-gradient(90deg, #F76680, #57007B)',
       },

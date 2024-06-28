@@ -11,6 +11,7 @@ const CaseStudies = () => {
   return (
     <div>
       <div className="container  w-[85%] m-auto flex justify-between items-center mt-[70px]">
+        
         <div className="company__info w-[38%] relative">
           <div className="half-circle relative bottom-[70px]"></div>
           <div className="line h-1 w-16 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 mb-8"></div>
@@ -38,10 +39,9 @@ const CaseStudies = () => {
           <div className="line h-1 w-16 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 mb-8 relative top-20"></div>
 
           <h1 className="text-[35px] mt-[20px] relative top-20">
-            {" "}
+       
             Meet the People
             <span className="font-inter font-bold block ">
-              {" "}
               We are Working With{" "}
             </span>
           </h1>
