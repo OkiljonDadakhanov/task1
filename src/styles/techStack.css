@@ -12,3 +12,30 @@
     width: 166px;
     object-fit: contain;
   }
+
+  
+  /* techStack.css */
+
+.ant-tabs-tab {
+  background-color: #f0f0f0 !important;
+  color: #000 !important;
+  font-weight: normal !important;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: transparent !important;
+  background: linear-gradient(90deg, #F76680, #57007B);
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-weight: 600 !important;
+}
+
+.ant-tabs-ink-bar {
+  background: linear-gradient(90deg, #F76680, #57007B) !important;
+  width: 25px !important;
+  border-radius: 2px;
+  margin-bottom: 10px;
+}

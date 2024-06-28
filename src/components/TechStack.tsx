@@ -1,24 +1,18 @@
-import React from 'react'
-import Line from './Line'
+import React from 'react';
+import Line from './Line';
 import { Tabs } from 'antd'; 
-import categories from '../utils/categories'
-
-
-
-
-import '../styles/techStack.css'
-
-
+import categories from '../utils/categories';
+import '../styles/techStack.css';
 
 const TechStack: React.FC = () => {
   return (
-    <div className="container w-[85%] m-auto">
+    <div className="container w-[85%] m-auto mt-5">
       <Line />
       <h1 className="text-[35px] font-inter text-center">
         Our
         <span className="font-bold block">Tech Stack</span>
       </h1>
-      <Tabs defaultActiveKey="1" centered>
+      <Tabs defaultActiveKey="1" centered tabBarStyle={{ backgroundColor: '#f0f0f0', color: '#000', fontWeight: 'bold' }}>
         {categories.map((category, idx) => (
           <Tabs.TabPane tab={category.name} key={idx + 1}>
             <div className="image-container">
