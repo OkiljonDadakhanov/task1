@@ -1,17 +1,22 @@
 import React from "react";
 
-import arrow from "../assets/icons/arrow.png";
-import company from "../assets/imgs/company.png";
-import play from "../assets/icons/play.png";
-import btnLeft from "../assets/icons/btnLeft.png";
-import btnRight from "../assets/icons/btnRight.png";
-import "../styles.css";
+import arrow from "../../assets/icons/arrow.png";
+import company from "../../assets/imgs/company.png";
+import play from "../../assets/icons/play.png";
+import btnLeft from "../../assets/icons/btnLeft.png";
+import btnRight from "../../assets/icons/btnRight.png";
+import "../../styles.css";
 
-const CaseStudies = () => {
+
+const CaseStudies: React.FC = () => {
+
+
   return (
     <div>
-      <div className="container  w-[85%] m-auto flex justify-between items-center mt-[70px]">
-        
+      <div
+        className="container  w-[85%] m-auto flex justify-between items-center mt-[70px]"
+
+      >
         <div className="company__info w-[38%] relative">
           <div className="half-circle relative bottom-[70px]"></div>
           <div className="line h-1 w-16 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 mb-8"></div>
@@ -39,7 +44,6 @@ const CaseStudies = () => {
           <div className="line h-1 w-16 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 mb-8 relative top-20"></div>
 
           <h1 className="text-[35px] mt-[20px] relative top-20">
-       
             Meet the People
             <span className="font-inter font-bold block ">
               We are Working With{" "}
@@ -50,22 +54,23 @@ const CaseStudies = () => {
         <div className="company__img relative">
           <img src={company} alt="" className="" />
           <div className="animate cursor-pointer   ">
-            
             <img
-            src={play}
-            alt=""
-            className="absolute bottom-[230px] left-[245px] "
-          />
+              src={play}
+              alt=""
+              className="absolute bottom-[230px] left-[245px] "
+            />
           </div>
-          
-           <div className="btns relative">
-            <img src={btnLeft} alt="btn" className="absolute top-8 left-[-20px]" />
+
+          <div className="btns relative">
+            <img
+              src={btnLeft}
+              alt="btn"
+              className="absolute top-8 left-[-20px]"
+            />
             <img src={btnRight} alt="btn" className="absolute" />
           </div>
 
           <div className="half-circle2 relative top-[122px]"></div>
-
-         
         </div>
       </div>
     </div>

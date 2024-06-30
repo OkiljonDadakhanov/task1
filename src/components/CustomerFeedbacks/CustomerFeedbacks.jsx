@@ -1,8 +1,8 @@
 // src/components/CustomerFeedback.jsx
 import React from "react";
-import second from "../assets/imgs/customers/9.png";
-import first from "../assets/imgs/customers/6.png";
-import stars from "../assets/imgs/customers/stars.png";
+import second from "../../assets/imgs/customers/9.png";
+import first from "../../assets/imgs/customers/6.png";
+import stars from "../../assets/imgs/customers/stars.png";
 
 const CustomerFeedback = ({ customer }) => {
   return (

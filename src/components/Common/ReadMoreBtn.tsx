@@ -1,6 +1,6 @@
 import React from "react";
 
-const ReadMoreBtn = () => {
+const ReadMoreBtn: React.FC = () => {
   return (
     <div>
       <button className="text-gradient font-semibold absolute right-10 bottom-[-25px]">

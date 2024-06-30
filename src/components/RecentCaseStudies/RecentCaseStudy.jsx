@@ -1,5 +1,5 @@
 import React from 'react'
-import ReadMoreBtn from "./ReadMoreBtn";
+import ReadMoreBtn from "../Common/ReadMoreBtn";
 
 
 

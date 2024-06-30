@@ -1,15 +1,15 @@
 // src/components/Customers.jsx
 import React, { useEffect } from "react";
-import "../styles.css";
-import "../styles/customersstyle.css";
+import "../../styles.css";
+import '../../styles/CustomersStyle.css' 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
-import customers from "../utils/customers";
-import CustomerFeedback from "../components/CustomerFeedbacks";
-import Line from "./Line";
+import customers from "../../utils/Customers";
+import CustomerFeedback from "./CustomerFeedbacks";
+import Line from "../Common/Line";
 
 const Customers = () => {
   useEffect(() => {
@@ -39,7 +39,7 @@ const Customers = () => {
 
   return (
     <>
-      <div className="flex justify-center min-h-screen">
+      <div className="flex justify-center min-h-screen " id='swiper'>
         <div className="container w-[85%] text-center mt-[170px]">
 
 <Line />

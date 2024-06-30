@@ -1,10 +1,13 @@
 import React from 'react';
-import Line from './Line';
+import Line from '../Common/Line';
 import { Tabs } from 'antd'; 
-import categories from '../utils/categories';
-import '../styles/techStack.css';
+import categories from '../../utils/Categories'
+import '../../styles/TechStack.css';
+
 
 const TechStack: React.FC = () => {
+
+  
   return (
     <div className="container w-[85%] m-auto mt-5">
       <Line />
@@ -15,7 +18,7 @@ const TechStack: React.FC = () => {
       <Tabs defaultActiveKey="1" centered tabBarStyle={{ backgroundColor: '#f0f0f0', color: '#000', fontWeight: 'bold' }}>
         {categories.map((category, idx) => (
           <Tabs.TabPane tab={category.name} key={idx + 1}>
-            <div className="image-container">
+            <div className="image-container " >
               {category.images.map((img, index) => (
                 <img key={index} src={img} alt={`${category.name} tech stack ${index + 1}`} />
               ))}

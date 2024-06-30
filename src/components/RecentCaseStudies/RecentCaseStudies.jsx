@@ -1,12 +1,12 @@
 import React from "react";
-import first from "../assets/imgs/case_studies/first.png";
-import second from "../assets/imgs/case_studies/second.png";
-import third from "../assets/imgs/case_studies/third.png";
+import first from "../../assets/imgs/case_studies/first.png";
+import second from "../../assets/imgs/case_studies/second.png";
+import third from "../../assets/imgs/case_studies/third.png";
 
 import RecentCaseStudy from "./RecentCaseStudy";
 
-import "../styles.css";
-import Line from "./Line";
+import "../../styles.css";
+import Line from "../Common/Line";
 
 const imageSources = [first, second, third];
 

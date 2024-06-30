@@ -32,3 +32,20 @@
   .first__container{
     background-color: #F1F2FF ;
   }
+  
+
+  .hr{
+    background: linear-gradient(to right, #F76680, #57007B);
+  }
+
+  .hire__btn{
+    background: linear-gradient(to right, #FFC656, #F16063);
+  }
+
+  .hire__container{
+    background: linear-gradient(to right, #F1F1F5, #E4ECF7);
+  }
+
+  .scroll{
+    scroll-behavior: smooth;
+  }

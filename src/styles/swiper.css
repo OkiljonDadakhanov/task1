@@ -17,3 +17,12 @@
   left: 0;
   width: 100%;
 }
+.swiper-slide {
+  transition: transform 0.3s ease, opacity 1s ease;
+  opacity: 1;
+}
+
+.swiper-slide-active {
+  opacity: 1;
+  transform: scale(1.1);
+}

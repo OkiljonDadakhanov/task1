@@ -1,14 +1,14 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
 
-import sampath from '../assets/imgs/companies/sampath.png';
-import yellow from '../assets/imgs/companies/yellow.png';
-import techmate from '../assets/imgs/companies/techmate.png';
-import adclipse from '../assets/imgs/companies/adclipse.png';
-import pjc from '../assets/imgs/companies/pjc.png';
-import clickorder from '../assets/imgs/companies/clickorder.png';
-import breakthrough from '../assets/imgs/companies/breakthrough.png';
-import '../styles.css'
+import sampath from '../../assets/imgs/companies/sampath.png';
+import yellow from '../../assets/imgs/companies/yellow.png';
+import techmate from '../../assets/imgs/companies/techmate.png';
+import adclipse from '../../assets/imgs/companies/adclipse.png';
+import pjc from '../../assets/imgs/companies/pjc.png';
+import clickorder from '../../assets/imgs/companies/clickorder.png';
+import breakthrough from '../../assets/imgs/companies/breakthrough.png';
+import '../../styles.css'
 
 const companyImages = [
   { src: sampath, alt: 'Sampath' },

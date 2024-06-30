@@ -1,6 +1,6 @@
 import React from "react";
-import "../styles.css";
-import "../styles/customersstyle.css";
+import "../../styles.css";
+import "../../styles/CustomersStyle.css";
 
 const Line = ({className}: {className?: string}) => {
   return (
