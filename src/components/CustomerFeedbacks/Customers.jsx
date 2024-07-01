@@ -1,6 +1,7 @@
 // src/components/Customers.jsx
 import React, { useEffect } from "react";
-import "../../styles.css";
+// import "../../styles.css"; 
+
 import '../../styles/CustomersStyle.css' 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -48,8 +49,10 @@ const Customers = () => {
             <span className="font-bold block">working with us</span>
           </h1>
         </div>
+ 
       </div>
-      <div className="swiper">
+      <div className="swiper"> 
+      
         <Swiper
           slidesPerView={5}
           centeredSlides={true}

@@ -9,7 +9,7 @@ const HireUs: React.FC = () => (
 
     <>
 
-        <div className="hire__container flex justify-between w-[85%] m-auto h-[285px] items-center rounded-lg p-6 mt-[155px]">
+        <div className="hire__container flex justify-between w-[85%] m-auto h-[285px] items-center rounded-lg p-6 mt-[155px] bg-[#fff]">
             <div className="h">
                 <h1 className='text-[#29272E] text-[35px] font-inter font-bold'>Hire the best developers and designers around!</h1>
             </div>

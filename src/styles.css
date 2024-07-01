@@ -20,7 +20,7 @@
   }
 
   .companiesName{
-    background-color: #F7F7FA;
+    background-color: #Fff;
     padding: 20px;
   }
 
@@ -30,7 +30,7 @@
 
 
   .first__container{
-    background-color: #F1F2FF ;
+    background-color: #Fff ;
   }
   
 
@@ -49,3 +49,16 @@
   .scroll{
     scroll-behavior: smooth;
   }
+
+  /* styles.css */
+
+
+.customer-comment {
+  font-size: 1.25rem; /* Adjust as necessary */
+  font-weight: 500; /* Adjust as necessary */
+  color: #333; /* Adjust as necessary */
+  margin-bottom: 40px;
+}
+
+
+

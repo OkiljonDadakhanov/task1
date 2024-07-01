@@ -5,11 +5,11 @@ import { useRef } from "react";
 
 const Product: React.FC = () => {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: false });
+  const isInView = useInView(ref, { once: true });
 
   return (
-    <div>
-      <div className="container w-[85%] m-auto flex justify-between items-center">
+    <div className='bg-[#fff]'>
+      <div className="container w-[85%] m-auto flex justify-between items-center ">
         <div
           ref={ref}
           className="product__info"

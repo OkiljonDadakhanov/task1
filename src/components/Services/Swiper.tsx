@@ -11,7 +11,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/autoplay';
 import 'swiper/css/scrollbar';
 
-import '../../styles/Swiper.css';
+import '../../styles/Swiper.css'; 
 
 // Import required modules
 import { Pagination, Autoplay, Scrollbar } from 'swiper/modules';
@@ -47,7 +47,7 @@ export default function App() {
         >
           <div className="swiper-pagination"></div>
 
-          <SwiperSlide className='rounded p-4 mb-10'>
+          <SwiperSlide className='rounded p-4 mb-[70px]'>
             <CarouselCard imgSrc={code} title="Mobile App Development" description="A Website is an extension of yourself and we can help you to express it properly. Your website is your number one marketing asset because we live in a digital age." />
           </SwiperSlide>
           <SwiperSlide className='rounded p-4'>
@@ -56,7 +56,13 @@ export default function App() {
           <SwiperSlide className='rounded p-4'>
             <CarouselCard imgSrc={testing} title="Software Testing Service" description="A Website is an extension of yourself and we can help you to express it properly. Your website is your number one marketing asset because we live in a digital age." />
           </SwiperSlide>
-          {/* Repeat slides as needed */}
+          <SwiperSlide className='rounded p-4'>
+            <CarouselCard imgSrc={code} title="Web Design & Development" description="A Website is an extension of yourself and we can help you to express it properly. Your website is your number one marketing asset because we live in a digital age." />
+          </SwiperSlide>
+          <SwiperSlide className='rounded p-4'>
+            <CarouselCard imgSrc={mobile} title="Mobile App Development" description="A Website is an extension of yourself and we can help you to express it properly. Your website is your number one marketing asset because we live in a digital age." />
+          </SwiperSlide>
+        
         </Swiper>
       </div>
     </>
